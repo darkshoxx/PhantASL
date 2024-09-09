@@ -1,3 +1,9 @@
+// WIP this pointermap does not seem to work
+// state("scummvm", "Phantasmagoria (GOG) SVM 2.8.1")
+// {
+//     byte chapter : "scummvm.exe",  0x03BA8480, 0x150, 0x98, 0x98, 0x38, 0x18, 0x58, 0x1A8;
+
+// }
 state("scummvm", "Phantasmagoria (GOG) SVM 2.7.1")
 {
     byte chapter : "scummvm.exe",  0x05276600, 0x40, 0x58, 0x0, 0x10, 0x10, 0x18, 0x1AA;
@@ -37,6 +43,9 @@ init {
     } else if (MD5Hash == "F6F51EF8BA5D908953B1288BCEEF3F4C") {
 		print("[Sh0xx] GOG SVM 2.8.0git3636");
 		version = "Phantasmagoria (GOG) SVM 2.8.0git3636";
+    } else if (MD5Hash == "E87AB55F28CA91E1B0D30E6ECACAE02F") {
+		print("[Sh0xx] GOG SVM 2.8.1");
+		version = "Phantasmagoria (GOG) SVM 2.8.1";
 	}
     print("[Sh0xx] INIT");
     vars.ch7 = 7;
