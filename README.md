@@ -1,0 +1,2 @@
+# PhantASL
+Autosplitter for Phantasmagoria
