@@ -1,9 +1,9 @@
 // WIP this pointermap does not seem to work
-// state("scummvm", "Phantasmagoria (GOG) SVM 2.8.1")
-// {
-//     byte chapter : "scummvm.exe",  0x03BA8480, 0x150, 0x98, 0x98, 0x38, 0x18, 0x58, 0x1A8;
+state("scummvm", "Phantasmagoria (GOG) SVM 2.8.1")
+{
+    byte chapter : "scummvm.exe",  0x03BA8480, 0x150, 0x98, 0x98, 0x38, 0x18, 0x58, 0x1AA;
 
-// }
+}
 state("scummvm", "Phantasmagoria (GOG) SVM 2.7.1")
 {
     byte chapter : "scummvm.exe",  0x05276600, 0x40, 0x58, 0x0, 0x10, 0x10, 0x18, 0x1AA;

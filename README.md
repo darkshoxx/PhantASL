@@ -47,4 +47,5 @@ How To Update to newest version:
 
     }
     ``` 
+    - CRUCIAL: Make sure, to add 2 to the final pointer, to get the byte containing the actual chapter, rather than the "0000" byte before that. In other words, change 1A8 to 1AA
     - Make sure to test with DebugView, it should always display the current Chapter.
